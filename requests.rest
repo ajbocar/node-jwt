@@ -1,0 +1,18 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQUogQm9jeiIsImlhdCI6MTYxMDUyNTI0NSwiZXhwIjoxNjEwNTI1MjYwfQ.SgTV7JEEjORawKxh6230XSyB_30_dyWWrgauZ9IYNNA
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username":"AJ Bocz"
+}
+
+###
+POST http://localhost:4000/token
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQUogQm9jeiIsImlhdCI6MTYxMDUyNjAxOH0.e9YcJX1N9W-WL_Eyde5SbkDpW4dXrWTigIjFWdY4VVQ"
+}
